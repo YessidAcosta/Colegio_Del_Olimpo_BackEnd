@@ -1,0 +1,30 @@
+PROYECTO COLEGIO_DEL_OLIMPO
+* Genere una pantalla en la cual se seleccione el profesor y liste las asignaturas que tiene, así como los estudiantes inscritos a cada asignatura.
+
+Especificaciones del cliente [colegio]
+* Deseamos que el sistema permita que nuestros profesores accedan a dos servicios principales: 
+	a. gestion de asignaturas
+	b. gestion de estudiantes
+
+Task 0.0.1: Diseñar el diagrama de despliegue y el diagrama de componentes. [team].
+Task 0.0.2: Diseñar el modelo de la base de datos. [backend].
+Task 0.0.3: Construir base de datos en PostgreSQL. [backend].
+Task 0.0.4: Desplegar la base de datos en Herocu. [leader].
+
+EPICs
+Epic 1: Gestionar modulo de profesores.
+User Story 1.1: Yo como profesor del colegio, quiero gestionar mis asignaturas, para saber cuales son las asignaturas a dictar.
+
+Task 1.1.1:  Construir un servicio web para consultar los cursos asignadas. [backend]
+Task 1.1.2:  Construir un servicio web para consultar las asignaturas asignadas. [backend]
+Task 1.1.3:  Construir un servicio web para consultar los estudiantes asignados. [backend]
+Task 1.1.4:  Diseñar los mockups correspondientes a las UI de los cursos, las asignaturas y los estudiantes. [frontend]
+Task 1.1.5:  Construir una UI para mostrar los cursos. [frontend]
+Task 1.1.5:  Construir una UI para mostrar las asignaturas. [frontend]
+Task 1.1.6:  Construir una UI para mostrar los estudiantes. [frontend]
+Task 1.1.7:  Diseñar casos de prueba tanto para los servicios web de consultas de cursos, asignaturas y estudiantes. [qa]
+Task 1.1.8:  Llevar a cabo los casos de prueba tanto para los servicios web de consultas de cursos, asignaturas y estudiantes utilizando casos de prueba. [qa]
+Task 1.1.9:  Diseñar casos de prueba tanto para la utilizacion de las UI relacionadas con las consultas de cursos, asignaturas y estudiantes. [qa]
+Task 1.1.9:  Llevar a cabo los casos de prueba tanto para la utilizacion de las UI relacionadas con las consultas de cursos, asignaturas y estudiantes. [qa]
+Task 1.1.10: Desplegar los servicios web de consultas de cursos, asignaturas y estudiantes en el backend de produccion usando heroku. [loader]
+Task 1.1.11: Desplegar las UI relacionadas con las consultas de cursos, asignaturas y estudiantes en el fronend de produccion usando heroku. [loader]
